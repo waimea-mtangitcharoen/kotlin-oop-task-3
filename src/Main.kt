@@ -148,7 +148,8 @@ class Steps() {
      * Return the number of gnomes on steps
      */
     fun gnomeCount(): Int {
-        return 0
+        if (steps.isEmpty()) return 0
+        if (steps.size )
     }
 
     /**
